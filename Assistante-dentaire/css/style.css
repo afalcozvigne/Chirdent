@@ -1,0 +1,323 @@
+
+/* <![CDATA[ */
+  body, div, p, td {font-family: Verdana;
+                            font-size: 8pt;
+                            color: #505050;
+                            text-align: justify}
+
+ input, textarea         {font-family: Verdana;
+                          background: #DDE3EC;
+                          font-size: 8pt;
+                          text-align: left;
+                          padding:2px;
+                          border:1px solid #9a9cb7;
+                          border-radius:5px;
+                          box-shadow:1px 1px 2px #C0C0C0 inset;
+                          }
+
+
+ select                  {font-family: Verdana;
+                          background: #DDE3EC;
+                          font-size: 8pt;
+                          text-align: left;
+                          padding:2px;
+                          border:1px solid #9a9cb7;
+                          border-radius:5px;
+                          box-shadow:1px 1px 2px #C0C0C0 inset;
+                          }
+
+ checkbox  {font-family: Verdana;
+            font-size: 8pt;
+            border:1px solid #9a9cb7;
+            box-shadow:1px 1px 2px #C0C0C0 inset;
+            }
+
+
+
+input[type=radio] {
+ background-color:transparent;
+ border:none;
+ width:10px;
+ }
+
+input[type=submit]:hover, input[type=reset]:hover {
+ background-color:#505050;
+ }
+input[type=submit]:active, input[type=reset]:active {
+ background-color:#505050;
+ box-shadow:1px 1px 1px #D83F3D inset;
+}
+
+
+  fieldset  { width: 98%;
+              height: auto;
+              padding:0 20px 20px 20px;
+              margin-bottom:10px;
+              padding-left: 4px;
+              padding-right: 4px; }
+              
+                                 
+  legend    { font-family: Verdana;
+              font-size: 8pt;
+              text-align: left}
+              
+
+  label    { margin-top:10px;
+             line-height:4em;
+             display:block; }
+ 
+  label.inline { display:inline;
+                 margin-right:50px; }
+
+  #tableau {
+              width: 98%;
+              height: auto;
+              background: url(img/tableau_int.gif); 
+              background-repeat: no-repeat;
+              padding: 8px; 
+              border-bottom: 1px solid #eeeeee}
+
+  .normal  {font-family: Verdana;
+            font-size: 8pt;
+            color: #505050;
+            text-align: justify}
+
+  .titre {font-family: Verdana;
+        font-size: 10pt;
+        color: #FFFFFF;
+        text-align: center;
+        }
+
+  .XXLdr {font-family: Verdana;
+        font-size: 16pt;
+        color: #06442a;
+        font-weight: bold;
+        text-align: center;
+        }
+        
+  .XLcd {font-family: Verdana;
+        font-size: 14pt;
+        color: #06442a;
+        text-align: center;
+        }
+        
+  .XLdr {font-family: Verdana;
+        font-size: 10pt;
+        color: #06442a;
+        text-align: center;
+        }
+
+
+  .ButtonRose {font-family: Verdana;
+               font-size: 10pt;
+               color: #000000;
+               font-weight: bold;
+               padding:10px;
+               background:#e34b7c;
+               border:1px solid #bbbbbb;
+               border-radius:8px;
+               -moz-border-radius:8px;
+               -webkit-border-radius:8px;
+               }
+
+  .ButtonBleu {font-family: Verdana;
+               font-size: 10pt;
+               color: #FFFFFF;
+               font-weight: bold;
+               padding:10px;
+               background:#06442a;
+               border:1px solid #bbbbbb;
+               border-radius:8px;
+               -moz-border-radius:8px;
+               -webkit-border-radius:8px;
+               }
+
+  .titredr {font-family: Verdana;
+        font-size: 10pt;
+        color: #FFFFFF;
+        background: #06442a;
+        font-weight: bold;
+        text-align: left;
+        border: 2px solid #06442a;
+        }
+
+  .titrecd {font-family: Verdana;
+        font-size: 10pt;
+        color: #FFFFFF;
+        background: #707070;
+        font-weight: bold;
+        text-align: left;
+        border: 2px solid #707070;
+        }
+
+  .titread {font-family: Verdana;
+        font-size: 10pt;
+        color: #FFFFFF;
+        background: #286F64;
+        font-weight: bold;
+        text-align: left;
+        border: 2px solid #286F64;
+        }
+
+
+  .bas {font-family: arial, helvetica;
+        font-size: 7pt;
+        color: #505050;
+        text-align: center}
+
+  .bas_rouge {  font-family: arial, helvetica;
+            font-size: 7pt;
+            color: #ff0000;
+            text-align: center}
+
+  .autre {    background:   #ADBBD0;    }
+
+  .menu {  font-family: Arial;
+            font-size: 15px;
+            text-align: left;
+            color: #000000;
+            }
+            
+
+  .new {     font-family: Verdana;
+             font-size: 8px;
+             display:inline;
+             background:yellow;
+             position:relative; top:-5px;
+
+              }
+              
+              
+  .complet { font-family: Verdana;
+             font-size: 8px;
+             color: #000000;
+             display:inline;
+             background:yellow;
+             position:relative; top:-5px;
+
+              }
+
+  .txtanng { font-family: Verdana;
+            font-size: 11px;
+            text-align: left;
+            color: #FFFFFF;
+            }
+
+   .txtannd { font-family: Verdana;
+            font-size: 11px;
+            text-align: right;
+            color: #FFFFFF;
+            }
+
+
+  .important {  font-family: Verdana;
+            font-size: 8pt;
+            color: #ff0000;
+            background: #eeeeee;
+            padding-left: 4px;
+            padding-right: 4px;
+            border: 1px solid #ff0000;}
+            
+  .vert {  font-family: Verdana;
+            font-size: 8pt;
+            color: #28760c;
+            background: #eeeeee;
+            padding-left: 4px;
+            padding-right: 4px;
+            border: 1px solid #28760c;}
+            
+   .rouge {  font-family: Verdana;
+            font-size: 8pt;
+            color: #ffffff;
+            background: #ff0000;
+            padding-left: 4px;
+            padding-right: 4px;
+            border: 1px solid #ff0000;
+            text-align:center;
+            }
+            
+   .parent {
+                font-family: verdana;
+                font-weight: bold;
+                font-size: 8pt;
+                margin-top: 10pt;
+                color: #343D98;
+                cursor: Pointer;
+            }
+
+    .child  {
+                font-size: 8pt;
+                font-weight: normal;
+                margin-left: 14pt;
+            }
+            
+  .bout {   font-family: Verdana;
+            font-size: 8pt;
+            background: #BFD9EB;
+            color: #000000;
+            padding: 2px;
+            padding-left: 4px;
+            padding-right: 4px;
+            border: 1px outset;}
+  .bout:hover { background: #99AAff;}
+  .bout2 {  height: 24px }
+  .bout2:hover {  height: 24px; border-bottom: 4px solid #CFE3F0 }  
+  .grosbout { border: none; height: 117px; width:168px; }
+  .grosbout:hover { border: none; height: 117px; width:168px; }
+
+
+		span.clair {
+			color: #303050;
+			border-bottom: 1px dotted #aaaaaa;
+		}
+
+
+		.zoom img {
+			z-index: 10;
+			width: auto;
+			height: auto;
+			text-align:center;
+		}
+
+  A:link {color: #000000;
+          text-decoration: none;
+          border-bottom: 0px dotted #505050;}
+  A:visited {color: #000000;
+          text-decoration: none;
+          border-bottom: 0px dotted #ffffff;}
+  A:hover {color: #000000;
+          text-decoration: underline;}
+
+
+.LV_validation_message{
+    font-weight:bold;
+    margin:0 0 0 5px;
+}
+.LV_valid {
+    color:#00CC00;
+}
+.LV_invalid {
+    color:#CC0000;
+}
+.LV_valid_field,
+input.LV_valid_field:hover,
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover,
+textarea.LV_valid_field:active {
+    border: 1px solid #00CC00;
+}
+.LV_invalid_field,
+input.LV_invalid_field:hover,
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover,
+textarea.LV_invalid_field:active {
+    border: 1px solid #CC0000;
+}
+
+
+
+
+
+
+
+/* ]]> */
